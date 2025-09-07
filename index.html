@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Avatar -->
+        <img src="./assets/avatar.jpg" alt="avatar" class="avatar">
+
+        <!-- Username -->
+        <h2>Thánh Núp Lùm</h2>
+        <h2 class="font-1">@Nuxplum</h2>
+
+        <!-- Social icons -->
+        <div class="socials">
+            <a href="https://www.tiktok.com/@anhbaovedf"><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tiktok.svg" alt="tiktok"></a>
+            <a href="https://www.youtube.com/@nuxplum"><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="youtube"></a>
+            <a href="https://discord.gg/jChtGThr"><img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/discord.svg" alt="discord"></a>
+        </div>
+
+        <!-- Links -->
+        <div class="links">
+            <a href="#" id="donateBtn" class="link">Donate for me, thanks alot</a>
+            <!-- Hidden donate info -->
+            <div class="donate-info" id="donateInfo">
+                <img src="./assets/qr.jpg" alt="QR Code" id="qrImage">
+                <p><strong>Ngân hàng:</strong> Techcombank</p>
+                <p><strong>Số tài khoản:</strong> 8320009105</p>
+                <p><strong></strong> Ủng hộ giúp em nhé</p>
+            </div>
+            <a class="font-1 link" href="https://www.tiktok.com/@anhbaovedf">My TikTok</a>
+            <a class="font-1 link" href="https://discord.gg/jChtGThr">Discord: NuxpLum HUB</a>
+            <a class="font-1 link" href="https://www.youtube.com/@nuxplum">My YouTube channel</a>
+        </div>
+
+        <!-- Overlay for fullscreen image -->
+        <div class="image-overlay" id="imageOverlay">
+            <span class="close-btn" id="closeOverlay">&times;</span>
+            <img id="overlayImg" src="" alt="Full View">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
